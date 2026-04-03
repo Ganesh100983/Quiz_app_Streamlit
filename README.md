@@ -78,18 +78,6 @@ quiz-app/
 - Detailed category breakdown shows performance in each knowledge area
 - Answer review table allows users to learn from mistakes
 
-## 🤝 Contributing
 
-Feel free to contribute to this project by:
-- Adding more questions to the question bank
-- Improving the UI/UX design
-- Adding new features or categories
-- Fixing bugs or optimizing performance
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 **Enjoy testing your knowledge! 🧠✨**
