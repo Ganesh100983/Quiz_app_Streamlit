@@ -15,7 +15,7 @@ A beautiful and interactive general knowledge quiz application built with Stream
 ## 🚀 Installation
 
 ### Prerequisites
-- Python 3.14 or higher
+- Python 3.11 or higher
 - UV package manager (install from [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv))
 
 ### Setup
@@ -52,7 +52,7 @@ A beautiful and interactive general knowledge quiz application built with Stream
 
 ## 📋 Requirements
 
-- Python 3.14+
+- Python 3.11+
 - UV package manager
 - Streamlit 1.55.0+
 
