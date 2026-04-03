@@ -16,31 +16,32 @@ A beautiful and interactive general knowledge quiz application built with Stream
 
 ### Prerequisites
 - Python 3.14 or higher
-- pip (Python package installer)
+- UV package manager (install from [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv))
 
 ### Setup
 1. Clone or download this repository
 2. Navigate to the project directory
-3. Create a virtual environment (recommended):
+3. Install dependencies and create virtual environment:
    ```bash
-   python -m venv .venv
+   uv sync
    ```
-4. Activate the virtual environment:
-   - Windows: `.venv\Scripts\activate`
-   - macOS/Linux: `source .venv/bin/activate`
-5. Install dependencies:
+   This will automatically create a virtual environment and install all required packages.
+
+4. Activate the virtual environment (if needed for manual commands):
    ```bash
-   pip install -e .
+   uv run --no-sync streamlit run main.py
    ```
-   Or install Streamlit directly:
-   ```bash
-   pip install streamlit
-   ```
+   Or use UV to run commands directly without activation.
 
 ## 🎮 Usage
 
 1. Run the Streamlit app:
    ```bash
+   uv run streamlit run main.py
+   ```
+   Or if you prefer to activate the environment first:
+   ```bash
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    streamlit run main.py
    ```
 2. Open your browser to the URL shown (usually `http://localhost:8501`)
@@ -52,9 +53,10 @@ A beautiful and interactive general knowledge quiz application built with Stream
 ## 📋 Requirements
 
 - Python 3.14+
+- UV package manager
 - Streamlit 1.55.0+
 
-Dependencies are defined in `pyproject.toml`.
+Dependencies are defined in `pyproject.toml` and locked in `uv.lock`.
 
 ## 🏗️ Project Structure
 
